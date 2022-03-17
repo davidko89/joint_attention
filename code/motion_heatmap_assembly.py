@@ -15,4 +15,4 @@ for folder in DATA_PATH.glob("*"):
         file_lists.append(file)
 
 for file in file_lists:
-    motion_heatmap_code()
+    motion_heatmap_code(file)
